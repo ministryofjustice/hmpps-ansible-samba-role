@@ -9,7 +9,7 @@ pylint = "*"
 
 [packages]
 ansible-lint = "==4.2.0"
-ansible = "==2.9.6"
+ansible = "==2.9.20"
 arrow = "==0.15.5"
 attrs = "==19.3.0"
 bcrypt = "==3.1.7"
