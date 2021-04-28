@@ -1,0 +1,6 @@
+---
+aws_region: eu-west-2
+device_name: /dev/xvdb
+volume_name: hmpps-ansible-samba-role
+volume_fs_type: xfs
+mount_point: /opt/jitbit

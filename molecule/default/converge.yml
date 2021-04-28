@@ -1,0 +1,10 @@
+---
+- name: Converge
+  hosts: all
+  become: true
+  vars_files:
+    - ../vars/role.yml
+  tasks:
+    - name: "Include hmpps-ansible-samba-role"
+      include_role:
+        name: "hmpps-ansible-samba-role"
